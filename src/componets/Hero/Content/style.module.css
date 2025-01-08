@@ -1,0 +1,31 @@
+.content {
+  width: 1180px;
+  margin: 20px auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Intro", sans-serif;
+}
+
+p.info {
+  width: 580px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.text {
+  width: 450px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.shopping {
+  width: 250px;
+  height: 60px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}

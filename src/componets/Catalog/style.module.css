@@ -1,0 +1,52 @@
+.main {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Intro", sans-serif;
+}
+
+.container {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog {
+  height: 710px;
+  display: flex;
+  gap: 20px;
+}
+
+.filters {
+  width: 280px;
+  height: 710px;
+  background-color: #FFF4EE;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  gap: 20px;
+}
+
+.box {
+  background: url("../../image/image.png") no-repeat top;
+
+}
+
+.show {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  left: 55%;
+  background-color: red;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.text {
+  font-family: "Intro Regular" sans-serif;
+}

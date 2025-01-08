@@ -1,0 +1,61 @@
+.about {
+  position: relative;
+  margin-top: 20px;
+  width: auto;
+  height: 580px;
+  background: rgba(48, 42, 83) url(../../image/figure.svg) left top no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+    width: 250px;
+    height: 30px;
+    font-weight: 400;
+}
+
+.text {
+    width: 380px;
+    height: 110px;
+}
+
+.left {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.right {
+  width: 680px;
+  height: 580px;
+  background: url(../../image/about.png);
+}
+
+
+.lineLogo {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.line {
+  width: 30px;
+  height: 2px; 
+  background-color: white; 
+  margin-right: 10px;
+}
+
+
+
+

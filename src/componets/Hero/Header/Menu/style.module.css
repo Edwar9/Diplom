@@ -1,0 +1,14 @@
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Intro", sans-serif;
+  font-size: 14px;
+}
+
+.menu {
+  margin-left: 180px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}

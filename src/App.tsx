@@ -1,14 +1,21 @@
 
 
-import './App.css'
+import "./App.css";
+import About from "./componets/About/about";
+import Catalog from "./componets/Catalog/catalog";
+import Hero from "./componets/Hero/hero";
+import AppQuiz from "./componets/Quiz/AppQuiz";
 
 function App() {
-
   return (
     <>
-      <h1>Hello world</h1>
-    </>   
-  )
+      <Hero />
+      <Catalog />
+      <About />
+      <AppQuiz />
+    </>
+  );
+  
 }
 
-export default App
+export default App;

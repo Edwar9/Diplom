@@ -1,0 +1,31 @@
+.cart {
+    width: 120px;
+    height: 25px;
+    padding-left: 0;
+    background: url(../../../../image/Basket.svg) no-repeat right;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .basket {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .count {
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background: url(../../../../image/Фон.png);
+  }
