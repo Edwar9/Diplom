@@ -24,7 +24,7 @@ const AppQuiz: React.FC = () => {
             {currentChoice === 2 && <ThirdChoice />}
           </div>
           <div className={style.button}>
-            <span>1 из 3</span>
+            <span className={style.score}>1 из 3</span>
             <button className={style.click} onClick={nextChoice}>
               Следующий шаг
             </button>
