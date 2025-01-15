@@ -5,9 +5,9 @@ import style from "./style.module.css";
 const Hero = () => {
   return (
     <div className={style.hero}>
-    <Header />
-    <Content />
-  </div>
+      <Header />
+      <Content />
+    </div>
   );
 };
 
