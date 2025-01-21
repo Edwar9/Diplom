@@ -1,5 +1,4 @@
 
-import ModalOne from "../ModalOne/modalOne";
 import style from "./style.module.css";
 
 const Content = () => {
@@ -15,7 +14,6 @@ const Content = () => {
         </p>
         <button className={style.shopping}>Перейти к покупкам</button>
       </div>
-      <ModalOne />
     </>
   );
 };
