@@ -1,10 +1,8 @@
-import ModalOne from "./ModalOne/modalOne";
 import style from "./style.module.css";
 
 const Catalog = () => {
   return (
-    <>
-      <div className={style.main}>
+    <div className={style.main}>
       <div className={style.container}>
         <h1 className={style.text}>Каталог</h1>
         <div className={style.catalog}>
@@ -20,9 +18,7 @@ const Catalog = () => {
         </div>
         <button className={style.show}>Показать ещё</button>
       </div>
-      </div>
-      {/* <ModalOne/> */}
-    </>
+    </div>
   );
 };
 
